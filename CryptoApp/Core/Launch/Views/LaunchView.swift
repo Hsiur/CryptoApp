@@ -54,7 +54,7 @@ struct LaunchView: View {
                 if counter == lastIndex {
                     counter = 0
                     loops += 1
-                    if loops >= 2 {
+                    if loops >= 1 {
                         showLauchView = false
                     }
                 } else {
